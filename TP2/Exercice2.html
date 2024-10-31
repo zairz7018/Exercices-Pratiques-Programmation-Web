@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice2</title>
+</head>
+<!-- Exercice2:Fiche de Candidature d'emploi -->
+<body> <center><h1>Fiche de Candidature d'emploi</h1></center>
+  <fieldset>
+    <legend>Informations Personnelles</legend>
+    <label for="nom">nom :</label> <input type="text" name="nom" id="">
+    <label for="prenom">Prenom :</label> <input type="text" name="prenom" id="">
+    <label for="email">Email : </label> <input type="email" name="email" id=""> <br><br>
+    <label for="tele">Telephone :</label><input type="texte" name="tele" id="tele" placeholder="060000000000"> 
+    <label for="DateN">Date de Naissance :</label>
+      <input type="date" name="DateN" id="DateN">
+  </fieldset>
+  <fieldset>
+    <legend>Documents</legend>
+    <label for="cv">Telecharger Votre Cv </label> <input type="file" name="cv"> <br>
+    <label for="motivation">Lettre de motivation</label> <input type="file" name="motivation" id="">
+  </fieldset>
+  <fieldset>
+    <legend>Competences Techniques</legend>
+    <label for="html">HTML :</label>
+    <input type="range" name="html" id="" min="0" max="10" value="9">
+    <label for="css">CSS :</label>
+    <input type="range" name="css" id="" min="0" max="10" value="6">
+    <label for="js">JavaScript :</label>
+    <input type="range" name="js" id="" min="0" max="10" value="2">
+  </fieldset>
+  <fieldset>
+    <legend>Langues Maitrise</legend>
+    <input type="checkbox" name="ang" id=""><label for="ang">Anglais</label>
+    <input type="checkbox" name="fr" id=""><label for="fr">Francais</label>
+    <input type="checkbox" name="esp" id=""><label for="ang">Espagniol</label>
+    <input type="checkbox" name="dutch" id=""><label for="dutch">Allemand</label>
+  </fieldset>
+  <fieldset>
+    <legend>Disponibilite et Deplacement</legend>
+    <label for="disp">Disponibilite immediate :</label> <br>
+    <input type="radio" name="disp" id=""><label for="disp">oui</label>
+    <input type="radio" name="disp" id=""><label for="disp">non</label> <br> <br>
+    <label for="cap">Capacite a se deplacer :</label> <br>
+    <input type="radio" name="cap" id=""><label for="cap">oui</label>
+    <input type="radio" name="cap" id=""><label for="cap">non</label>
+  </fieldset>
+  <fieldset>
+    <legend>Message Personnelles</legend>
+    <label for="presentation">Presentez-Vous en Quelques mots :</label> <textarea name="presentation" id="">Expliquez ici pourquoi vous etes le condidats ideal ...</textarea>
+  </fieldset>
+  <input type="button" value="Envoyer la Condidature">
+</body>
+</html>

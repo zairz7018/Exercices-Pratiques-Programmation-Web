@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice1</title>
+</head>
+<!-- Exercice1 : Formulaire de Creation du Profil -->
+<body><center>
+  <h1>Formulaire de Creation du Profil</h1></center>
+    <fieldset>
+      <legend>Informations Personnelles</legend>
+      <label for="nom">Nom Complet:</label>
+      <input type="text" name="nom" id="nom">  
+      <label for="DateN">Date de Naissance :</label>
+      <input type="date" name="DateN" id="DateN">
+    </fieldset>
+    <fieldset>
+      <legend>Informations de Contact</legend>
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email">  
+      <label for="tele">Telephone :</label>
+      <input type="texte" name="tele" id="tele" placeholder="060000000000"> <br> <br>
+      <label for="WEb">Site web personnel :</label>
+      <input type="text" name="WEb" id="WEb">
+    </fieldset>
+    <fieldset>
+      <legend>Competence et Preference</legend>
+      <label for="comp">Competences:</label>
+      <select name="comp" id="comp">
+        <option value="Developpement web">Developpement web</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+      </select> <br> <br>
+      <label for="Visibilite">Visibilite de profil :</label>
+      <input type="checkbox" name="Public" id="Public"><label for="Public">Public</label>
+      <input type="checkbox" name="Prive" id="Prive"><label for="Prive">Prive</label>
+      <input type="checkbox" name="Ami" id="Ami"><label for="Ami">Amis seulement</label>
+    </fieldset>
+    <fieldset>
+      <legend>Description Personnelles</legend>
+      <label for="Desc">Description : </label>
+      <textarea name="Desc" id="Desc" placeholder="Decrivez vous ici ..."></textarea>
+      
+    </fieldset>
+    <input type="button" value="Crier le profil"> 
+    
+</body>
+</html>
